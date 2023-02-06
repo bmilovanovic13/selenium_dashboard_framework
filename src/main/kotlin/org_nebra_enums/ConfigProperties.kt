@@ -1,0 +1,12 @@
+package org_nebra_enums
+
+enum class ConfigProperties {
+
+    URL,
+    OVERRIDE_REPORTS,
+    PASSED_STEPS_SCREENSHOTS,
+    FAILED_STEPS_SCREENSHOTS,
+    SKIPPPED_STEPS_SCREENSHOTS,
+    RETRY_FAILED_TESTS,
+    BROWSER,
+}

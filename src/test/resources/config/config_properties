@@ -1,0 +1,27 @@
+# dev - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+# uat - https://uat-opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+#Please provide keys in lower case
+url = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+
+# Dynamic reports yes or no
+# If NO , report will have name as currenttime+index.html
+# If YES, report will have name as index.htm
+override_reports = yes
+
+# PassedStepsScreenshot --> Yes or No
+passed_steps_screenshots = yes
+
+# FailedStepsScreenshot --> Yes or No
+failed_steps_screenshots = yes
+
+# SkippedStepsScreenshot --> Yes or No
+skipped_steps_screenshot = yes
+
+
+#retry failed test cases
+retryfailedtests=yes
+
+
+browser
